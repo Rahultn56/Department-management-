@@ -2,11 +2,21 @@
   "name": "college-department-management-system",
   "version": "1.0.0",
   "description": "Full-Stack College Department Management System (MERN Stack: MongoDB, Express, React, Node.js)",
+  "main": "backend/server.js",
   "scripts": {
+    "build": "cd frontend && npm install && npm run build",
     "server": "cd backend && npm run dev",
     "client": "cd frontend && npm run dev",
-    "start": "cd backend && npm start",
-    "build": "cd frontend && npm run build"
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   },
   "keywords": [
     "department-management",
@@ -14,7 +24,8 @@
     "mern",
     "mongodb",
     "react",
-    "express"
+    "express",
+    "vercel"
   ],
   "author": "Rahul",
   "license": "ISC"
