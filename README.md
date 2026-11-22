@@ -2,7 +2,7 @@
 
 A comprehensive, full-stack Department Management web application built with **MongoDB**, **Express.js**, **React (Vite)**, and **Node.js**.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FRahultn56%2FDepartment-management-&env=MONGO_URI&envDescription=MongoDB%20Atlas%20URI%20(optional)&project-name=department-management-system)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FRahultn56%2FDepartment-management-)
 
 ---
 
